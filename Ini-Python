@@ -1,0 +1,24 @@
+Instalación de paquetes de Python
+_________________________________
+Python está disponible para los tres sistemas operativos principales (Microsoft Windows, macOS y Linux) y el instalador, así como la documentación, 
+se pueden descargar del sitio web oficial de Python: https://www.python.org.
+
+Nota
+
+Puede verificar su versión predeterminada actual de Python ejecutando
+
+$ python -V
+
+Los paquetes adicionales se pueden instalar mediante el programa de instalación PIP, que ha sido parte de la biblioteca estándar de Python desde Python 3.3.
+Puede encontrar más información sobre PIP en https://docs.python.org/3/installing/index.html.
+
+install pip algunPaquete
+
+(donde algunPaquete es un marcador de posición para numpy, pandas, matplotlib, scikit-learn, etc.).
+
+Los paquetes ya instalados se pueden actualizar mediante el indicador --upgrade:
+
+pip install algunPaquete --upgrade
+
+ 
+ 
