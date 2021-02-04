@@ -7,18 +7,52 @@ Nota
 
 Puede verificar su versión predeterminada actual de Python ejecutando
 
-$ python -V
+   $ python -V
 
 Los paquetes adicionales se pueden instalar mediante el programa de instalación PIP, que ha sido parte de la biblioteca estándar de Python desde Python 3.3.
 Puede encontrar más información sobre PIP en https://docs.python.org/3/installing/index.html.
 
-install pip algunPaquete
+  install pip algunPaquete
 
 (donde algunPaquete es un marcador de posición para numpy, pandas, matplotlib, scikit-learn, etc.).
 
 Los paquetes ya instalados se pueden actualizar mediante el indicador --upgrade:
 
-pip install algunPaquete --upgrade
+   pip install algunPaquete --upgrade
 
+Anaconda
+
+Una distribución alternativa de Python muy recomendada para la informática científica es Anaconda de Continuum Analytics. Anaconda es una distribución de Python gratuita,
+incluso para uso comercial, lista para la empresa que agrupa todos los paquetes de Python esenciales para ciencia de datos, matemáticas e ingeniería en una distribución
+multiplataforma fácil de usar.
+El instalador de Anaconda se puede descargar en
+          https://docs.anaconda.com/anaconda/install/, 
+y una guía de inicio rápido de Anaconda está disponible en 
+          https://docs.anaconda.com/anaconda/user-guide/getting- empezado/.
+
+Después de instalar Anaconda con éxito, podemos instalar nuevos paquetes de Python usando el siguiente comando:
+
+   conda install algunPaquete
+
+Los paquetes existentes se pueden actualizar usando el siguiente comando:
+    
+    conda update algunPaquete
+    
+Uilizaremos principalmente las matrices multidimensionales de NumPy para almacenar y manipular datos. Ocasionalmente, usaremos pandas, que es una biblioteca 
+construida sobre NumPy que proporciona herramientas adicionales de manipulación de datos de nivel superior que hacen que trabajar con datos tabulares sea aún
+más conveniente. Para aumentar nuestra experiencia de aprendizaje y visualizar datos cuantitativos, que a menudo son extremadamente útiles para entenderlos
+intuitivamente, usaremos la biblioteca matplotlib muy personalizable.
+
+Core packages
+
+Los números de versión de los principales paquetes de Python que se utilizaron para escribir este libro se enumeran a continuación.
+Asegúrese de que los números de versión de sus paquetes instalados sean iguales o mayores que esos números de versión para garantizar que los ejemplos de código
+se ejecuten correctamente:
  
- 
+   NumPy >= 1.17.4
+   SciPy >= 1.3.1
+   scikit-learn >= 0.22.0
+   matplotlib >= 3.1.0
+   pandas >= 0.25.3
+  
+
